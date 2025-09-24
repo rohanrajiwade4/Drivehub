@@ -1,0 +1,10 @@
+# Ignore PowerShell junk files
+Start-Service*
+
+# Ignore Python cache and virtual environment
+__pycache__/
+*.pyc
+venv/
+
+# Ignore VS Code settings folder
+.vscode/
